@@ -1,0 +1,23 @@
+.cp-btn {
+  display: flex;
+  border-radius: 12px;
+  font-family: "Alata";
+  font-size: rem(16px);
+  background-color: var(--color-alpha);
+  min-height: 50px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  padding: 16px 25px;
+  justify-content: center;
+  text-align: center;
+
+  &:active {
+    background-color: #495089;
+  }
+
+  &:disabled,
+  &[disabled] {
+    background-color: #bbbed3;
+  }
+}

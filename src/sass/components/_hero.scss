@@ -1,0 +1,150 @@
+.cp-hero__wrap {
+  overflow-x: hidden;
+}
+
+.cp-hero {
+  position: relative;
+  background-color: #ff745e;
+  color: white;
+  z-index: 1;
+}
+
+.cp-hero__bottom-wrap {
+  overflow: hidden;
+
+  div {
+    width: 160vw;
+    height: 115px;
+    bottom: 0;
+    transform: translateX(-30vw) translateY(-50%);
+    z-index: 0;
+    background: #ff745e;
+    border-radius: 0 0 50% 50% / 50px;
+
+    @media (min-width: 992px) {
+      width: 100vw;
+      height: 142px;
+      transform: translateX(0) translateY(-65%);
+    }
+  }
+}
+
+.cp-hero__title {
+  font-size: rem(24px);
+  line-height: 32px;
+  padding-top: 27px;
+  font-weight: 500;
+
+  @media (min-width: 992px) {
+    font-size: rem(46px);
+    line-height: 1.5;
+    padding-top: 80px;
+    max-width: 68%;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: rem(56px);
+  }
+}
+
+.cp-hero__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: right top;
+  background-color: #ff745e;
+  display: none;
+  z-index: -1;
+  @media (min-width: 992px) {
+    display: block;
+  }
+}
+
+.cp-hero__buttons {
+  @media (min-width: 992px) {
+    margin: 0 -25px 0 -25px;
+    transform: translateY(55px);
+    height: 70px;
+  }
+
+  .cp-btn {
+    text-align: left;
+    justify-content: flex-start;
+
+    max-width: 320px;
+    margin: 0 auto;
+
+    @media (min-width: 992px) {
+      align-items: flex-start;
+      padding-top: 33px;
+      width: 100%;
+      min-height: 128px;
+      margin: 0 25px;
+      transition: 200ms ease;
+
+      &:hover {
+        box-shadow: 0px 20px 25px -5px rgba(122, 57, 47, 0.05),
+          0px 10px 10px -5px rgba(122, 57, 47, 0.02);
+      }
+
+      span {
+        max-width: 100px;
+      }
+    }
+  }
+
+  .cp-btn--icon-mama {
+    background-color: #6c7cd8;
+    background-repeat: no-repeat;
+    background-position: center right -31px;
+    background-image: url(../img/icon-mama.png);
+
+    @media (min-width: 992px) {
+      background-image: url(../img/icon-mama--lg.png);
+      background-position: right -74px top -4px;
+    }
+  }
+
+  .cp-btn--icon-pulmon {
+    background-color: #1b246b;
+    background-repeat: no-repeat;
+    background-position: center right -20px;
+    background-image: url(../img/icon-pulmon.png);
+
+    @media (min-width: 992px) {
+      background-image: url(../img/icon-pulmon--lg.png);
+      background-position: right -74px top -4px;
+    }
+
+    &:active {
+      background-color: #1b246bd3;
+    }
+  }
+
+  .cp-btn--icon-esclerosis {
+    color: #313131;
+    background-color: #ffdec0;
+    background-repeat: no-repeat;
+    background-position: right -30px top -22px;
+    background-image: url(../img/icon-esclerosis.png);
+
+    @media (min-width: 992px) {
+      background-image: url(../img/icon-esclerosis--lg.png);
+      background-position: right -74px top -4px;
+    }
+
+    &:active {
+      background-color: #ffdec0e0;
+    }
+  }
+
+  .cp-btn + .cp-btn {
+    margin-top: 14px;
+    @media (min-width: 992px) {
+      margin-top: 0;
+    }
+  }
+}

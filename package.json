@@ -7,8 +7,7 @@
     "clean": "rm -r dist/",
     "start": "parcel src/index.html",
     "dev": "parcel src/index.html",
-    "build": "rm -r dist/* & parcel build src/index.html",
-    "vercel-build": "parcel build src/index.html",
+    "build": "parcel build src/index.html",
     "build-no-minify": "parcel build --no-minify --no-content-hash src/index.html"
   },
   "keywords": [],
