@@ -1,0 +1,20 @@
+.cp-header {
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.cp-header__logo {
+  padding: 12px 0;
+}
+
+.cp-btn-menu-toggle {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+
+  &.active {
+    path {
+      stroke: #1b246b;
+    }
+  }
+}

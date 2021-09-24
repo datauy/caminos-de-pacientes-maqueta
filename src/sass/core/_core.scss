@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // scrollbar-color: #0c2a3c #e5f3fa;
+  scrollbar-width: thin;
+
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  // background: #e5f3fa;
+}
+
+body::-webkit-scrollbar-thumb {
+  // background-color: #0c2a3c;
+  // outline: 0;
+  // border-radius: 9px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  // display: grid;
+  // grid-template-rows: auto 1fr auto;
+  // grid-template-columns: minmax(0, 1fr);
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+details > * {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Bootstrap override */
+@media (min-width: 1400px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/**
+* List marker color.
+* Currently works in Firefox and Safari
+* ref: https://caniuse.com/#feat=css-marker-pseudo
+*/
+ul li::marker {
+  // color: var(--color-accent);
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+}
+
+/* font weights */
+
+.cp-font-100 {
+  font-weight: 100;
+}
+
+.cp-font-200 {
+  font-weight: 200;
+}
+
+.cp-font-300 {
+  font-weight: 300;
+}
+
+.cp-font-400,
+.cp-font-normal {
+  font-weight: 400;
+}
+
+.cp-font-500 {
+  font-weight: 500;
+}
+
+.cp-font-600 {
+  font-weight: 600;
+}
+
+.cp-font-700 {
+  font-weight: 700;
+}
+
+.cp-font-800 {
+  font-weight: 800;
+}
+
+.cp-font-900 {
+  font-weight: 900;
+}
+
+// Alpinejs helper
+[x-cloak] {
+  display: none !important;
+}
+
+.cp-flow > * + * {
+  line-height: 1.5;
+  margin-top: var(--flow-space, 1em);
+}
+
+// Prose defines default text styles, for usage in default pages or default content
+.cp-prose {
+}
+
+.cp-separator {
+}

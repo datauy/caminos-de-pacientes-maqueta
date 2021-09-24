@@ -1,0 +1,62 @@
+@use "sass:math";
+
+/* Functions */
+
+@function rem($px) {
+  $size: strip-unit($px);
+
+  @return math.div($size, 16) + rem;
+}
+
+@function strip-unit($number) {
+  @if type-of($number) == "number" and not unitless($number) {
+    @return math.div($number, ($number * 0 + 1));
+  }
+
+  @return $number;
+}
+
+// Default focus
+
+@mixin focus-btn {
+}
+
+// Apply default border-radius and border
+@mixin default-border {
+}
+
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: mix($foreground-color, white, 50%),
+  $border-radius: 15px
+) {
+  //https://css-tricks.com/snippets/sass/custom-scrollbars-mixin/
+
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+    border: 3px solid $background-color;
+    border-radius: $border-radius;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  & {
+    scrollbar-color: $foreground-color $background-color;
+    scrollbar-width: thin;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
