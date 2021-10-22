@@ -1,0 +1,22 @@
+.cp__home-intro-section {
+  font-size: rem(22px);
+
+  @media (min-width: 992px) {
+    font-size: rem(24px);
+    --line-height: 1.75;
+  }
+  .container {
+    max-width: 676px;
+  }
+}
+
+.cp-home__more-info-item {
+  font-size: rem(18px);
+}
+
+.cp-home-more-info-section {
+  margin-bottom: 70px;
+  @media (min-width: 768px) {
+    margin-bottom: 150px;
+  }
+}

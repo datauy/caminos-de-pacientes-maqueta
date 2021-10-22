@@ -1,0 +1,18 @@
+.cp-h1 {
+  font-size: rem(24px);
+  font-family: "Vollkorn";
+  font-weight: 500;
+  @media (min-width: 768px) {
+    font-size: rem(56px);
+  }
+}
+
+.cp-h2 {
+  font-size: rem(24px);
+  font-family: "Alata";
+  font-weight: 400;
+  line-height: 1.2;
+  @media (min-width: 768px) {
+    font-size: rem(32px);
+  }
+}

@@ -131,7 +131,7 @@ ul {
 }
 
 .cp-flow > * + * {
-  line-height: 1.5;
+  line-height: var(--line-height, 1.5);
   margin-top: var(--flow-space, 1em);
 }
 

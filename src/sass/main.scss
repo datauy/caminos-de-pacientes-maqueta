@@ -12,9 +12,13 @@
 @import "core/helpers";
 @import "core/fonts";
 @import "core/core";
+@import "core/type";
 
 @import "components/header";
 @import "components/menu";
 @import "components/hero";
 @import "components/button";
 @import "components/blobs";
+
+// Pages
+@import "pages/home";
