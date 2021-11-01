@@ -5,10 +5,12 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  // scrollbar-color: #0c2a3c #e5f3fa;
+  scrollbar-color: var(--color-beta) #e5f3fa;
   scrollbar-width: thin;
 
   scroll-behavior: smooth;
+
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -17,13 +19,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  // background: #e5f3fa;
+  background: #e5f3fa;
 }
 
 body::-webkit-scrollbar-thumb {
-  // background-color: #0c2a3c;
-  // outline: 0;
-  // border-radius: 9px;
+  background-color: var(--color-beta);
+  outline: 0;
+  border-radius: 9px;
 }
 
 *,

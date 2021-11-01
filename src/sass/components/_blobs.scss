@@ -7,8 +7,28 @@
     display: block;
   }
 
-  &--first {
+  &--a {
     top: 497px;
+    left: 0;
+  }
+
+  &--b {
+    top: 1000px;
+    right: 0;
+  }
+
+  &--c {
+    top: 1340px;
+    right: 0;
+  }
+
+  &--d {
+    top: 1880px;
+    left: 0;
+  }
+
+  &--e {
+    top: 2540px;
     left: 0;
   }
 }

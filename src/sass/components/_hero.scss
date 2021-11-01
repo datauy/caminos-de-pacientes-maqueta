@@ -72,12 +72,18 @@
     z-index: 2;
   }
 
+  perspective: 1px;
+
   .cp-btn {
     text-align: left;
     justify-content: flex-start;
-
     max-width: 320px;
     margin: 0 auto;
+    transition: 100ms;
+
+    &:hover {
+      transform: scale3d(1.025, 1.025, 1);
+    }
 
     @media (min-width: 992px) {
       align-items: flex-start;
@@ -104,6 +110,10 @@
     background-position: center right -31px;
     background-image: url(../img/icon-mama.png);
 
+    &:hover {
+      background-color: #6c7cd8;
+    }
+
     @media (min-width: 992px) {
       background-image: url(../img/icon-mama--lg.png);
       background-position: right -74px top -4px;
@@ -115,6 +125,10 @@
     background-repeat: no-repeat;
     background-position: center right -20px;
     background-image: url(../img/icon-pulmon.png);
+
+    &:hover {
+      background-color: #1b246b;
+    }
 
     @media (min-width: 992px) {
       background-image: url(../img/icon-pulmon--lg.png);
@@ -132,6 +146,10 @@
     background-repeat: no-repeat;
     background-position: right -30px top -22px;
     background-image: url(../img/icon-esclerosis.png);
+
+    &:hover {
+      background-color: #ffdec0;
+    }
 
     @media (min-width: 992px) {
       background-image: url(../img/icon-esclerosis--lg.png);

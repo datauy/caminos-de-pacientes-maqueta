@@ -1,0 +1,35 @@
+.cp-footer {
+  font-size: rem(14px);
+  background: #333;
+  color: rgba(255, 255, 255, 0.7);
+
+  p + p {
+    margin-top: 14px;
+  }
+}
+
+.cp-footer__title {
+  color: white;
+  font-family: "Alata";
+}
+
+.cp-footer__separator {
+  border: 0;
+  border-bottom: 1px solid #979797;
+  margin: 40px 0;
+}
+
+.cp-footer__subtitle {
+  color: white;
+  font-family: "Alata";
+  font-size: 18px;
+}
+
+.cp-footer__socials {
+  a {
+    transition: 200ms ease;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
