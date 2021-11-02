@@ -10826,6 +10826,15 @@ ul {
   }
 }
 
+.cp-hero-footer__faqs {
+  display: inline-flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: white;
+  font-family: "Alata";
+  line-height: 1;
+}
+
 .cp__home-intro-section {
   font-size: 1.375rem;
 }
