@@ -184,12 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/main.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./../fonts/Alata/alata-latin.woff2":[["alata-latin.df955864.woff2","fonts/Alata/alata-latin.woff2"],"fonts/Alata/alata-latin.woff2"],"./../img/icon-mama.png":[["icon-mama.17b68c86.png","img/icon-mama.png"],"img/icon-mama.png"],"./../img/icon-mama--lg.png":[["icon-mama--lg.db39e708.png","img/icon-mama--lg.png"],"img/icon-mama--lg.png"],"./../img/icon-pulmon.png":[["icon-pulmon.1eefbc3b.png","img/icon-pulmon.png"],"img/icon-pulmon.png"],"./../img/icon-pulmon--lg.png":[["icon-pulmon--lg.006cc265.png","img/icon-pulmon--lg.png"],"img/icon-pulmon--lg.png"],"./../img/icon-esclerosis.png":[["icon-esclerosis.daa5c9a1.png","img/icon-esclerosis.png"],"img/icon-esclerosis.png"],"./../img/icon-esclerosis--lg.png":[["icon-esclerosis--lg.cfeab7af.png","img/icon-esclerosis--lg.png"],"img/icon-esclerosis--lg.png"],"/Users/ignacio/Projects/data/caminos/html/src/img/hero-footer.png":[["hero-footer.158b5af6.png","img/hero-footer.png"],"img/hero-footer.png"],"/Users/ignacio/Projects/data/caminos/html/src/img/bg-mama-mobile.png":[["bg-mama-mobile.e2100851.png","img/bg-mama-mobile.png"],"img/bg-mama-mobile.png"],"/Users/ignacio/Projects/data/caminos/html/src/img/bg-mama.png":[["bg-mama.8d38bae4.png","img/bg-mama.png"],"img/bg-mama.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +389,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.07544d9b.js.map
+//# sourceMappingURL=/camino-mama.js.map

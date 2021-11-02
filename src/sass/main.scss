@@ -13,6 +13,7 @@
 @import "core/fonts";
 @import "core/core";
 @import "core/type";
+@import "core/layout";
 
 @import "components/header";
 @import "components/menu";
@@ -23,6 +24,9 @@
 @import "components/button-back";
 @import "components/callout";
 @import "components/hero-footer";
+@import "components/mini-hero";
+@import "components/stat";
+@import "components/stepper";
 
 // Pages
 @import "pages/home";

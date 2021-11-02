@@ -1,0 +1,12 @@
+.cp-narrow {
+  margin: 0 auto;
+
+  & > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  & > *:not(.cp-stat):not(.cp-callout) {
+    max-width: 550px;
+  }
+}
