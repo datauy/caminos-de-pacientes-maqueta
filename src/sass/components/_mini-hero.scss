@@ -23,4 +23,20 @@
       background-image: url("/img/bg-mama.png");
     }
   }
+  &--pulmon {
+    background-image: url("/img/bg-pulmon-mobile.png");
+    @media (min-width: 768px) {
+      background-image: url("/img/bg-pulmon.png");
+    }
+  }
+  &--esclerosis {
+    background-image: url("/img/bg-esclerosis-mobile.png");
+    @media (min-width: 768px) {
+      background-image: url("/img/bg-esclerosis.png");
+    }
+
+    .cp-h1 {
+      color: var(--color-text);
+    }
+  }
 }
