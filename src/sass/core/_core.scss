@@ -150,3 +150,21 @@ ul {
     margin-top: 90px;
   }
 }
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+hr.cp-divider {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  margin: 48px auto;
+
+  &--hard {
+    border-bottom: 1px solid #8d8d8d;
+    @media (min-width: 768px) {
+      margin: 75px auto;
+    }
+  }
+}
