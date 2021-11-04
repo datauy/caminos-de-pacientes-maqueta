@@ -11221,6 +11221,83 @@ tbody tr:nth-of-type(even) {
   margin-inline-start: 1rem;
 }
 
+.cp-faq-strip {
+  padding: 40px 0;
+}
+@media (min-width: 768px) {
+  .cp-faq-strip {
+    padding: 60px 0;
+  }
+}
+.cp-faq-strip--first {
+  background-color: #f0efde;
+}
+.cp-faq-strip--second {
+  background-color: #caeef6;
+}
+
+.cp-faq-strip__img {
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.form-faq {
+  margin: 0 auto;
+  max-width: 725px;
+  padding: 90px 0;
+}
+@media (min-width: 768px) {
+  .form-faq {
+    padding: 135px 0;
+  }
+}
+.form-faq .cp-btn {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+@media (min-width: 768px) {
+  .form-faq .cp-btn {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.cp-input {
+  border: 0;
+}
+
+.cp-select,
+.cp-input,
+.cp-textarea {
+  border: 0;
+  border-bottom: 1px solid #979797;
+  font-size: 1.125rem;
+  width: 100%;
+  padding: 12px 6px;
+  color: #484848;
+}
+.cp-select::placeholder,
+.cp-input::placeholder,
+.cp-textarea::placeholder {
+  color: #484848;
+}
+
+.cp-input-help,
+.cp-form-error {
+  color: #8d8d8d;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cp-form-error {
+  color: #d14242;
+}
+
+.cp-textarea {
+  resize: vertical;
+}
+
 .cp__home-intro-section {
   font-size: 1.375rem;
 }

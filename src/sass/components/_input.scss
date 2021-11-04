@@ -1,0 +1,34 @@
+.cp-input {
+  border: 0;
+}
+
+.cp-select,
+.cp-input,
+.cp-textarea {
+  border: 0;
+  border-bottom: 1px solid #979797;
+  font-size: rem(18px);
+  width: 100%;
+  padding: 12px 6px;
+  color: #484848;
+
+  &::placeholder {
+    color: #484848;
+  }
+}
+
+.cp-input-help,
+.cp-form-error {
+  color: #8d8d8d;
+  font-size: rem(13px);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cp-form-error {
+  color: #d14242;
+}
+
+.cp-textarea {
+  resize: vertical;
+}
