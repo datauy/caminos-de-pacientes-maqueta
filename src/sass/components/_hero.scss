@@ -80,6 +80,7 @@
     max-width: 320px;
     margin: 0 auto;
     transition: 100ms;
+    display: block;
 
     &:hover {
       transform: scale3d(1.025, 1.025, 1);
