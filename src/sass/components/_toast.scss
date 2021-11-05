@@ -1,0 +1,62 @@
+.cp-toast {
+  background-color: #1b246b;
+  color: white;
+  font-family: "Alata", sans-serif;
+  border-radius: 12px;
+  position: fixed;
+  top: 5px;
+  width: calc(100% - 20px);
+  left: 50%;
+  padding: 26px;
+  transform: translateX(-50%);
+  z-index: 100;
+
+  @media (min-width: 768px) {
+    max-width: 1000px;
+    top: 105px;
+  }
+
+  .cp-btn {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 0 1px white;
+  }
+}
+
+.cp-toast__close {
+  background-image: url("data:image/svg+xml,%3Csvg width='15' height='15' viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.8189 1.5L1 13.3328' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M13.8189 13.3328L1 1.5' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-size: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 23px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  display: block;
+  background-color: transparent;
+  position: absolute;
+  right: 26px;
+  top: 26px;
+
+  &:hover {
+    background-color: rgb(255 255 255 / 6%);
+  }
+
+  &:active {
+    background-color: rgb(255 255 255 / 12%);
+  }
+}
+
+.cp-toast__title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cp-toast__content {
+  @media (min-width: 768px) {
+    padding: 0 60px;
+  }
+}
