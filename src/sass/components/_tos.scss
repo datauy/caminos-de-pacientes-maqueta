@@ -1,0 +1,58 @@
+.cp-tos {
+  border: 1px solid #c9c9c9;
+  padding: 16px;
+  font-size: rem(14px);
+  font-style: italic;
+  max-height: 350px;
+  overflow-y: auto;
+
+  scrollbar-color: #b9b9b9 #ecf2f5;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ecf2f5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #b9b9b9;
+    outline: 0;
+    border-radius: 9px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 25px 28px;
+    font-size: rem(16px);
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Vollkorn";
+    font-style: normal;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  h3 {
+    font-size: 140%;
+  }
+
+  h4 {
+    font-size: 130%;
+  }
+  h5 {
+    font-size: 120%;
+  }
+  h6 {
+    font-size: 110%;
+  }
+}

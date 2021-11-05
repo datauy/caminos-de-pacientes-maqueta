@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <title>Preguntas frecuentes | Caminos de Pacientes</title>
+  <title>Registro | Caminos de Pacientes</title>
 </head>
 
 <body>
@@ -94,140 +94,169 @@
   <!-- /mobile menu -->
 
   <article class="cp-post">
-    <div class="container mt-4 mb-5">
+    <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-12 col-lg-5 mt-4">
-          <h1 class="cp-h1">Hacer <br class="d-none d-lg-inline">preguntas</h1>
+        <div class="col-12 col-lg-4 offset-lg-1">
+          <h1 class="cp-h1">Registro</h1>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="cp-flow mt-4">
+        <div class="col-12 col-lg-5 offset-lg-1 mt-4 mt-lg-0">
+          Alii autem, quibus ego cum a se texit, ne ferae quidem rerum necessitatibus saepe eveniet, ut summo bono,
+          dolorem ipsum,
+          quia non fuisse torquem detraxit hosti et quidem exercitus quid ex ea voluptate velit esse, quid malum, sensu
+          iudicari.
+        </div>
+      </div>
 
+      <div class="row mt-5">
+        <div class="col-lg-8 offset-lg-2">
+          <form action="#" class="cp-form-login">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <label for="name" class="cp-label">Nombre</label>
+                <input type="text" class="cp-input" placeholder="Nombre completo" required="">
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="usuario" class="cp-label">Apellido</label>
+                <input type="email" class="cp-input" placeholder="Correo electrónico" required="">
+              </div>
+
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-12 col-md-6">
+                <label for="genero" class="cp-label">Género</label>
+                <select name="genero" id="genero" class="cp-select">
+                  <option value="" selected="" disabled="">Género</option>
+                  <option value="M">Masculino</option>
+                  <option value="F">Femenino</option>
+                  <option value="M">Otro</option>
+                </select>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="dpto" class="cp-label">Departamento</label>
+                <select name="dpto" id="dpto" class="cp-select">
+                  <option value="" selected="" disabled="">Elegir</option>
+                  <option value="">Montevideo</option>
+                  <option value="Artigas">Artigas</option>
+                  <option value="Otro">Maldonado</option>
+                  <option value="Otro">Salto</option>
+                  <option value="Otro">Rocha</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-12 col-md-6">
+                <label for="barrio" class="cp-label">Barrio</label>
+                <input type="text" class="cp-input" placeholder="Barrio">
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="edad" class="cp-label">Edad</label>
+                <input class="cp-input" type="text" name="edad" id="edad" placeholder="Edad">
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-12 col-md-6">
+                <label for="password" class="cp-label">Contraseña</label>
+                <div class="cp-password-mask">
+                  <input id="password" type="password" class="cp-input" placeholder="*********">
+                  <button class="cp-password-mask__toggle" type="button">
+                    <span class="visually-hidden">Ver/Ocultar contraseña</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="password-confirm" class="cp-label">Confirmar contraseña</label>
+                <div class="cp-password-mask cp-password-mask--visible">
+                  <input id="password-confirm" type="text" class="cp-input" placeholder="*********">
+                  <button class="cp-password-mask__toggle" type="button">
+                    <span class="visually-hidden">Ver/Ocultar contraseña</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-12 text-center">
+                <label for="tos" class="cp-checkbox">
+                  <input type="checkbox" name="tos" id="tos">
+                  <span>Acepto los términos y condiciones*</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-12 text-center">
+                <input type="submit" value="Registrarse" class="cp-btn cp-btn--wide">
+              </div>
+            </div>
+
+          </form>
+
+          <!-- Terms of service -->
+          <div class="cp-tos cp-flow mt-5">
             <p>
-              Alii autem, quibus ego cum a se texit, ne ferae quidem rerum necessitatibus saepe eveniet, ut summo bono,
-              dolorem ipsum,
-              quia non fuisse torquem detraxit hosti et quidem exercitus quid ex ea voluptate velit esse, quid malum,
-              sensu
-              iudicari.
+              *Alii autem, quibus ego cum a se texit, ne ferae quidem rerum necessitatibus saepe eveniet, ut summo bono,
+              dolorem
+              ipsum, quia non fuisse torquem ex ea voluptate velit esse, quid malum, sensu iudicari. Alii autem, quibus
+              ego cum a se
+              texit, ne ferae quidem rerum necessitatibus saepe eveniet, ut summo bono, dolorem ipsum, quia non fuisse
+              torquem
+              detraxit hosti et quidem exercitus quid ex ea voluptate velit esse, quid malum, sensu iudicari.
             </p>
             <p>
               Ut placet, inquam tum dicere exorsus est eligendi optio, cumque nihil est, qui in liberos atque in ea quid
-              et
-              fortibus
+              et fortibus
               viris commemorandis eorumque factis non recusandae itaque earum rerum necessitatibus saepe eveniet, ut ita
-              ruant
-              itaque
+              ruant itaque
               earum rerum.
             </p>
+            <h2>Algo importante</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora esse temporibus deleniti reprehenderit
+              neque voluptatibus soluta assumenda, voluptas nemo culpa est voluptates dignissimos facere alias qui quia
+              eaque beatae expedita.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ratione et ex dolorum quos aliquam est?
+              Modi dicta eligendi illo voluptatum atque maiores, neque exercitationem debitis fugiat libero totam.
+              Blanditiis?
+            </p>
+            <h3>Otra sección dentro de lo importante</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ratione et ex dolorum quos aliquam est?
+              Modi dicta eligendi illo voluptatum atque maiores, neque exercitationem debitis fugiat libero totam.
+              Blanditiis?
+            </p>
+            <h3>Una lista de cosas</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam architecto temporibus illum, iusto
+              et, vitae necessitatibus sapiente ipsam corporis modi voluptates ratione odio accusamus earum? Nostrum
+              magni minus similique?
+            </p>
+            <ul>
+              <li>Un ítem importante</li>
+              <li>Otro elemento de la lista</li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit <a href="#">amet consectetur adipisicing</a> elit. Dolorem aspernatur magni
+              repellendus quam saepe
+              illum facere nostrum, dolor tenetur vitae, porro vel culpa atque veniam doloremque? Dicta omnis ad atque.
+            </p>
 
           </div>
+          <!-- end Terms -->
+
         </div>
       </div>
 
-      <div class="cp-callout">
-        <p>
-          Alii autem, quibus ego cum a se texit, ne ferae quidem rerum necessitatibus saepe eveniet, ut summo
-          bono,
-          dolorem ipsum, quia non fuisse torquem detraxit hosti et quidem.
-        </p>
-      </div>
 
     </div>
 
-    <div class="cp-faq-strip cp-faq-strip--first">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-6 cp-flow">
-            <h2>¿Qué tipo de preguntas?</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quis corrupti aspernatur cumque eos
-              corporis
-              deserunt tempora quae porro accusantium voluptas, error dignissimos repellat, natus consequatur quos
-              commodi,
-              magnam aliquid.
-            </p>
-          </div>
-          <div class="col-12 col-md-6 mt-4 mt-md-0">
-            <img src="/faq-1.80da2184.png" class="ms-md-auto cp-faq-strip__img" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="cp-faq-strip cp-faq-strip--second">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-6 cp-flow">
-            <h2>¿Quién responde?</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quis corrupti aspernatur cumque eos
-              corporis
-              deserunt tempora quae porro accusantium voluptas, error dignissimos repellat, natus consequatur quos
-              commodi,
-              magnam aliquid.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quis corrupti aspernatur cumque eos
-              corporis
-              deserunt tempora quae porro accusantium voluptas, error dignissimos repellat, natus consequatur quos
-              commodi,
-              magnam aliquid.
-            </p>
-          </div>
-          <div class="col-12 col-md-6 mt-4 mt-md-0">
-            <img src="/faq-2.42d82488.png" class="ms-md-auto cp-faq-strip__img" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
+
   </article>
-
-  <form action="#" class="form-faq">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <label for="#" class="visually-hidden">Tomografía</label>
-          <select name="paso" id="paso" class="cp-select" required="">
-            <option value="" selected="">Tomografía</option>
-            <option value="2">Paso 2</option>
-            <option value="3">Paso 3</option>
-            <option value="4">Paso 4</option>
-          </select>
-          <span class="cp-input-help">
-            *Cambiar en el caso de querer preguntar sobre otro paso
-          </span>
-        </div>
-        <div class="col-12 col-md-6">
-          <label for="tema" class="visually-hidden">Tema de la pregunta</label>
-          <select name="tema" id="tema" class="cp-select" required="">
-            <option value="" selected="">Tema de la pregunta</option>
-            <option value="tema-1">Tema 1</option>
-            <option value="tema-2">Tema 2</option>
-            <option value="tema-3">Tema 3</option>
-            <option value="tema-4">Tema 4</option>
-          </select>
-          <span class="cp-input-help">
-            *Seleccionar la opción más adecuada
-          </span>
-        </div>
-        <div class="col-12 mt-5">
-          <label for="pregunta" class="visually-hidden">Pregunta</label>
-          <textarea placeholder="Pregunta" name="pregunta" id="pregunta" rows="1" class="cp-textarea"></textarea>
-        </div>
-
-        <!-- Error / opcional -->
-        <div class="col-12">
-          <span class="cp-form-error">
-            Mensaje de error / todos los campos son obligatorios blabla
-          </span>
-        </div>
-
-        <div class="col-12 text-center mt-5">
-          <input type="submit" value="Enviar" class="cp-btn">
-        </div>
-      </div>
-
-    </div>
-  </form>
 
 
   <footer class="cp-footer py-4 py-md-5">

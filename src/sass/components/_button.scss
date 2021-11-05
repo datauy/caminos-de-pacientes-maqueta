@@ -25,6 +25,26 @@
     background-color: #bbbed3;
   }
 
+  &--ghost {
+    border: 0;
+    color: #0069ff;
+    font-family: "Alata";
+    background-color: transparent;
+
+    &:hover {
+      background-color: #fbfbfb;
+    }
+  }
+
+  &--wide {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+
+    @media (min-width: 768px) {
+      min-width: 320px;
+    }
+  }
+
   &--outline {
     color: var(--color-alpha);
     background-color: transparent;
