@@ -10652,6 +10652,7 @@ hr.cp-divider--hard {
 }
 @media (min-width: 992px) {
   .cp-hero__buttons .cp-btn {
+    display: flex;
     align-items: flex-start;
     padding-top: 33px;
     width: 100%;
